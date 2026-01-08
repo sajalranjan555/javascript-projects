@@ -1,0 +1,79 @@
+.container{
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 12rem;
+    border-radius: 10px;
+}
+.top-heading{
+ margin-top: 1rem;
+ margin-left: 50px;
+text-align: center;
+}
+.top-heading h2{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+.top-heading p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.border-line1{
+    height: 0.1rem;
+    width: 90px;
+    margin-left: 13rem;
+    margin-top: -1rem;
+    background: rgb(74, 74, 249);
+}
+                                        /* right heading styling */
+.border-line2{  height: 0.1rem;
+    width: 30px;
+    margin-left: 4rem;
+    margin-top: -1rem;
+    background: rgb(74, 74, 249);
+}
+.right-heading{
+    margin-top: 9rem;
+    margin-left: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+.right-heading span{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+                                          /* button styling */
+.btn{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+#btn2 img{
+ width: 20px;
+ height: 20px;
+ margin-left: -1.5rem;
+ margin-top: -2px;
+ position: absolute;
+}
+ #btn2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    background: transparent;
+    cursor: pointer;
+ }
+ #btn1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    background: rgb(74, 74, 249);
+    color: #fff;
+    cursor: pointer;
+ }
