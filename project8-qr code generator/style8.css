@@ -1,0 +1,49 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 13rem;
+    position: relative;
+}
+.items{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+#input-text{
+    width: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    outline: none;
+}
+#paragraph{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#btn{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    background: rgb(86, 86, 243);
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+                                      /* qr image styling */
+#imgbox{
+    max-height: 0;
+    width: 200px;
+    transition: max-height 1s;
+}
+#qrimage{
+ margin-top: 2rem;
+}
+#imgbox.show-img{
+    max-height: 300px;
+    margin:10px auto;
+}
