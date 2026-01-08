@@ -1,0 +1,36 @@
+#content{
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+#content button{
+    margin-top: 6rem;
+    margin-left: -26.5rem;
+    position: absolute;
+    background: green;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+#content button img{
+width: 25px;
+height: 25px;
+margin-left: -2rem;
+margin-top: -6px;
+position: absolute;
+}
+                          /* input syling */
+#content input{
+   padding-top: 1.3rem;
+   padding-bottom: 1.3rem;
+   padding-left: 1rem;
+   padding-right: 15rem;
+}
+#content img{
+    width: 35px;
+    height: 35px;
+    margin-left: -3rem;
+    position: absolute;
+    margin-top: 0.7rem;
+}
