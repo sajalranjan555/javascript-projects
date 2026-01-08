@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/edad510402.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style10.css">
+    <title>Document</title>
+</head>
+<body style="background: rgb(82, 81, 81);">
+    <div class="container">
+        <div class="top">
+            <i id="icon1" class="fa-solid fa-angle-left"></i>
+            <i id="icon2" class="fa-solid fa-bars"></i>
+        </div>
+            <img src="../images/468-thumbnail.png" alt="" class="image">
+        <div class="middle">
+            <p>Unbothered</p>
+            <p>Song by Navaan Sandhu</p>
+        </div>
+
+        <audio id="audio">
+            <source src="../images/Unbothered.mp3">
+        </audio>
+        <input type="range" value="0" id="progress">
+
+        <div class="playback">
+            <i id="backward" class="fa-solid fa-backward"></i>
+            <i onclick="playPause()" id="play" class="fa-solid fa-play"></i>
+            <i id="forward" class="fa-solid fa-forward"></i>
+
+        </div>
+    </div>
+    <script src="10.js"></script>
+</body>
+</html>
