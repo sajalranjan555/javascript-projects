@@ -1,0 +1,96 @@
+.background{
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 1.5rem;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    position: absolute;
+}
+.flex1 h2{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: darkblue;
+}
+.flex1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+margin-top: 7rem;
+margin-left: 3rem;
+}
+.flex2 input{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 19rem;
+    border-radius: 2rem;
+}
+.flex2 button{
+    /* border: 2px solid red; */
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 2rem;
+    margin-left: -6.5rem;
+    background: rgb(237, 155, 4);
+}
+
+.items{
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 3rem;
+}
+.items li{
+    list-style:none;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    /* position: relative; */
+}
+
+                                           /* image daalna */
+.items li::before{
+    background-image: url(../images/unchecked.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+    background-position: center;
+    content: '';
+    position: absolute;
+    margin-left: -2.2rem;
+    margin-top: -0.2rem;
+}
+.items .checked{
+    color: #555;
+    text-decoration: line-through;
+}
+.items .checked::before{
+    background-image: url(../images/checked.png);
+}
+                             /* js se styling karna */
+.items li span{
+    position: absolute;
+ text-align: center;
+ margin-left: 25rem;
+ margin-top: -1rem;
+ font-size: 2rem;
+ border-radius: 50%;
+ padding-left: 7px;
+ padding-right: 7px;
+}
+.items li span:hover{
+    background: #edeef0;
+ 
+}
